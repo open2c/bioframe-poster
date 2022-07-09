@@ -3,3 +3,4 @@ numpy
 matplotlib
 bioframe
 git+https://github.com/manzt/hg
+nbconvert==6.5.*
