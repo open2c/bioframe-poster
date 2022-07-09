@@ -1,8 +1,14 @@
 # bioframe-poster
 Scipy22 Virtual Poster
 
-Building slides:
+Setup:
 
 ```sh
-jupyter nbconvert --to slides bioframe-poster.ipynb --stdout > index.html
+pip install -r requirements.txt
+```
+
+Build slides:
+
+```sh
+make
 ```
